@@ -1,0 +1,49 @@
+<body>
+	<header>
+		<img src="https://41.media.tumblr.com/b26ade8ba12784deb57cec330bda0e12/tumblr_nkdz2zijto1qzw1yno1_540.png">
+		<h1>Hello, I'm Danny.</br> I'm an entrepreneur, a product designer, and a creative strategist.</h1>
+		<h2>I work with startups &amp; established companies to develop new products, solve business problems, and craft compelling stories.</h2>
+	</header>
+	<div class="quotewrapper">
+		<div class="quote">
+			I believe in designing products that people want to talk about.
+		</div>
+	</div>
+
+	<section>
+		<h2>About Me:</h2><br />
+		<p>For years now, I've been the square peg that you can't quite figure out where to place. I am an anomaly, an outlier. I am at the forefront of a new breed of tech savvy, digitally connected, trend conscious, and socially aware innovators who are working every day create new products &amp; ideas for companies big and small.</p>
+
+		<p>I'm passionate about technology &amp; creativity which shows in the work that I create. I believe in designing valuable products and experiences that ingratiate consumers and encourage them to do the talking that advertising would normally accomplish. I believe in simple, smart, and social.</p>
+
+		<p>Force me to put a name to what I do, and I'd tell you that it's equal parts: conceptual ideation, product/service design and innovation, brand development strategy, UX/Visual design, social media strategy, and copywriting/art direction.</p>
+
+		<p>Want to learn more? <!--Give me a shout on Twitter (<a href="http://twitter.com/amongmany">@AmongMany</a>) or have a look at my latest endeavor, <a href="http://datenight.is">Date Night Is</a>.--></p>
+
+	</section>
+
+	<section>
+		<h2>Contact Me:</h2><br />
+			<%= simple_form_for @home do |f| %>
+				<%= f.input :name, :class => 'form' %><br />
+				<%= f.input :email, :class => 'form' %><br />
+				<%= f.input :content, :class => 'form' %><br />
+				<%= f.submit 'Send', :class => 'btn btn-large' %>
+			<% end %>
+	</section>
+
+	<section>
+		<h2>Here's Where to Find Me:</h2>
+		<ul>
+			<li>Reach me <a href="mailto:danny@amongmany.com" target="blank">via email</a></li>
+			<li>Shout <a href="http://twitter.com/amongmany" target="blank">on Twitter</a></li>
+			<li>Find me <a href="http://linkedin.com/in/amongmany" target="blank">on LinkedIn</a></li>
+			<li>Peek at <a href="http://1amongmany.com" target="blank">my Portfolio</a></li>
+			<li>Peruse <a href="http://amongmany.com" target="blank">my Tumblr</a></li>
+			<li>View <a href="http://shotsamongmany.com" target="blank">my Photography</a></li>
+		</ul>		
+	</section>
+	<div class="footer">
+		Made with love for the folks at General Assembly.
+	</div>
+</body>

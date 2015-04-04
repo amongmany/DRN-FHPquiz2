@@ -1,0 +1,180 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+		body {
+			background: white;
+			padding-bottom: 0px;
+		}
+		header {
+			margin: 60px auto 80px;
+			max-width: 720px;
+		}
+		header img {
+			width: 150px;
+			height: 150px;
+			margin: 30px 0 0 0;
+			border: 0px solid white;
+			border-radius: 75px;
+			display: inline;
+			clear: right;
+		}
+
+		header h1 {
+			color: #464e54;
+			font: 700 32px/45px 'Istok Web', sans-serif;
+			font-family: 'Istok Web', sans-serif;
+			margin: -148px 0 0 174px;
+		}
+		header h2 {
+			color: #464e54;
+			font: normal 24px/34px 'Istok Web', sans-serif;
+			font-family: 'Istok Web', sans-serif;
+			margin: 40px 0 0 0;
+		}
+		.quotewrapper {
+			background: #464e54;
+			position: relative;
+			min-width: 100%;
+			height: 180px;
+			padding: 60px 0 0 0;
+			margin: 0 -8px 0 -8px;
+		}
+
+		.quote {
+			color: white;
+			font: 500 43px/54px 'Istok Web', sans-serif;
+			font-style: italic;
+			text-align: center;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+		section {
+			max-width: 720px;
+			margin: 60px auto;
+		}
+
+		section h2 {
+			color: #464e54;
+			font: normal 28px/34px 'Istok Web', sans-serif;
+			font-family: 'Istok Web', sans-serif;
+			margin:	0 0 -10px 0;
+		}
+		section p {
+			font: normal 16px/24px Helvetica, Arial, sans-serif;
+			color: #464e54;
+			max-width: 600px;
+		}
+
+		section p a {
+			font-weight: 700;
+			font-style: italic;
+			text-decoration: none;
+			color: #464e54;
+			border-bottom: 1px solid #ef3932;
+		}
+
+		section p a:hover {
+			background: #ef3932;
+			color: white;
+			padding: 2px 0 1px 0;
+		}
+		section ul {
+			font: normal 16px/24px Helvetica, Arial, sans-serif;
+			color: #464e54;
+			max-width: 600px;
+			list-style: none;
+			margin: 10px 0 0 -22px;
+		}
+		section ul a {
+			font-weight: 700;
+			font-style: italic;
+			text-decoration: none;
+			color: #464e54;
+			border-bottom: 1px solid #ef3932;
+		}
+
+		section ul a:hover {
+			background: #ef3932;
+			color: white;
+			padding: 2px 0 1px 0;
+		}
+		section li:before {   
+   			content: "";  
+   			border-color: transparent #ef3932;  
+   			border-style: solid;  
+   			border-width: 0.35em 0 0.35em 0.45em;  
+   			display: block;  
+   			height: 0;  
+   			width: 0;  
+   			left: -1em;  
+    		top: 0.9em;  
+    		position: relative;  
+		} 
+
+		form {
+			font: normal 16px/24px Helvetica, Arial, sans-serif;
+			color: #464e54;
+			margin-right: 5px;
+		}
+		
+
+		.footer {
+			text-align: center;
+			color: #464e54;
+			font: normal 14px/34px 'Istok Web', sans-serif;
+			font-family: 'Istok Web', sans-serif;
+			margin: 50px 0 20px 0;
+		}
+
+		@media (max-width: 727px) {
+      	header {
+			margin: 60px auto 40px;
+			padding: 0 15px 0 15px;
+		}
+
+      	header img {
+			width: 150px;
+			height: 150px;
+			margin: 0px auto 40px;
+			border: 0px solid white;
+			border-radius: 75px;
+			display: block;
+			clear: right;
+		}
+
+		header h1 {
+			color: #464e54;
+			font: 700 20px/30px 'Istok Web', sans-serif;
+			font-family: 'Istok Web', sans-serif;
+			margin: 0px 0 0px 20px;
+		}
+		header h2 {
+			color: #464e54;
+			font: normal 16px/20px 'Istok Web', sans-serif;
+			font-family: 'Istok Web', sans-serif;
+			margin: 10px 20px 0 20px;
+		}
+		.quotewrapper {
+			background: #464e54;
+			position: relative;
+			min-width: 100%;
+			height: 180px;
+			padding: 90px 0px 0 0px;
+			margin: 0 -8px 0 -8px;
+		}
+		.quote {
+			color: white;
+			font: 500 26px/42px 'Istok Web', sans-serif;
+			font-style: italic;
+			text-align: center;
+			max-width: 500px;
+			margin: 0 auto;
+			padding: 0 25px 0 25px;
+		}
+		section {
+			margin: 60px auto;
+			padding: 0 30px 0 30px;
+		}
+      	}
+
+     
